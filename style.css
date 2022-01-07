@@ -1,0 +1,80 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /*sabhi font ka size change kr dega */
+}
+
+header > h1 {
+  font-weight: 200;
+}
+
+header {
+  display: flex;                   /* sare element side by side hojayenge */
+  justify-content: space-between;  /*elements ke beech mai space dene ke liye  */
+  margin: 0 3rem;                  /* 1 rem=16pixels */
+}
+
+ul {
+  list-style: none;                /*list bullet hatane ke liye */
+  display: flex;                  /* sare element side by side hojayenge */
+  justify-content: space-between;
+}
+
+nav {
+  width: 22rem;               /* nav ke pass  limited space hi hita hai
+                               isliye ise alag se space dena padega 
+                               jiske liye hamne  WIDTH use kiya hai*/
+
+  position: relative;      /*kisi bhi element ko 
+                           default position se 
+                           move kr sakte hai    */
+
+  top: 1rem;               /* top dene ke liye position relative use krna hi pad */
+
+  
+}
+
+.showcase img{
+    width: 95vw;  /* vw(view width) se screen ke sath sath img ka size change hota rahega*/
+    height: 100vh;
+    margin :1rem;
+
+}
+
+article{
+    display: flex;                   /* sare element side by side hojayenge */
+    margin: 1.5rem;
+
+}
+
+
+.container{
+      
+     text-align: center;   /*sab kuch center pr allign ho jayega */
+    margin-right: 2rem;
+    padding: 1rem;
+
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+footer{
+
+    background-color: black ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    align-items: center;
+    
+    
+}
+
+a{
+  text-decoration: none;
+}
+
+ a:hover{                    /* link pr jane se uska colour change krta hai */
+  color:chartreuse;
+}
